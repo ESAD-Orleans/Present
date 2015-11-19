@@ -1,3 +1,11 @@
 # Présent
 
-Charlène Leroy 4DVG - ARC Edition nouvelles formes - Application mobile bibliothèque
+ARC Edition nouvelles formes - Application mobile bibliothèque
+
+## auteurs
+
+- Charlène Leroy 4DVG
+
+## dévellopement
+
+- ESAD Orléans, Arthur Violy
