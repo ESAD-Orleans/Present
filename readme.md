@@ -6,6 +6,6 @@ ARC Edition nouvelles formes - Application mobile bibliothèque
 
 - Charlène Leroy 4DVG
 
-## dévellopement
+## développement
 
 - ESAD Orléans, Arthur Violy
