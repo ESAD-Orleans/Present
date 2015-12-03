@@ -1,5 +1,16 @@
-#home {
+html, body {
+    width:100vw;
 } 
+.page_wrapper{
+    float:left;
+    width:100%;
+}
+.p5 canvas{
+    position:fixed;
+    top:0;
+    width:100vw; // viewport width
+    height:100vh; // viewport height
+}
 
 #home .page_wrapper{
 	background: url("../images/Pagedaccueil/accueiltitre.png") no-repeat; 
