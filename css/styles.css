@@ -1,9 +1,9 @@
-body .un {
+body  {
 	background: url("../images/pagedaccueil/accueiltitre.png") no-repeat; 
   	background-size: cover; /* version standardisée */
 } 
 
-@font-face { /* déclare nouv police sous le nom de Blight*/
+@font-face { /* déclare nouv police sous le nom de Glight*/
 	font-family:'GLight'; /* donne un nom */
     src: url("Graublau_light_italic.otf"); 
 
