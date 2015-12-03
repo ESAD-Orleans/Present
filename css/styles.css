@@ -1,7 +1,10 @@
-body .un {
-	background: url("../images/pagedaccueil/accueiltitre.png") no-repeat; 
-  	background-size: cover; /* version standardisée */
+#home {
 } 
+
+#home .page_wrapper{
+	background: url("../images/Pagedaccueil/accueiltitre.png") no-repeat; 
+  	background-size: cover; /* version standardisée */
+}
 
 @font-face { /* déclare nouv police sous le nom de Blight*/
 	font-family:'GLight'; /* donne un nom */
