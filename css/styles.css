@@ -20,16 +20,26 @@ html, body {
 @font-face { /* déclare nouv police sous le nom de Blight*/
 	font-family:'GLight'; /* donne un nom */
     src: url("Graublau_light_italic.otf"); 
-
+}    
+@font-face {
     font-family: 'Bthin';
     src: url("BreeThin.otf");
-    
+}    
+@font-face {    
     font-family:'AleoBold';
     src: url("AleoBold.otf");
-
+}
+@font-face {    
+    font-family:'Gextraitalic';
+    src: url("Graublau_extralight_italic.otf");
+}
+@font-face {    
+    font-family:'Gbold';
+    src: url("Graublau_bold.otf");
 }
 
-/**************************************Page d'accueil**************************************/
+
+/*******Page d'accueil*******/
 #texte1{
 	font-size: 13pt;
 	padding: 95% 0% 0% 45%; /* top right bottom left*/
@@ -51,7 +61,7 @@ html, body {
 /******Texte Averse******/
 #texteaverse{
 	font-size: 13pt;
-    line-height: 17spt;
+    line-height: 18pt;
 	margin-top: 20%;
 	margin-left: 35%;
 	font-family:'Bthin';
@@ -71,23 +81,46 @@ html, body {
 #textecoquelicot{
     font-family: 'AleoBold';
     font-size: 60pt;
+    line-height: 68pt;
+    letter-spacing: 0.01em;
     margin:0% 10% 10% 15%;
 }
 
 .coquelicot1{
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .coquelicot2{
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .coquelicot3{
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20%;    
+}
+
+
+/******Edito******/
+#titre{
+font-family: 'Gextraitalic';
+font-size: 10pt;
+margin:auto;    
+}
+
+#date{
+font-family: 'Gbold';
+font-size: 13pt;    
+letter-spacing: 0.05em;
+    
+}
+
+.Seullevent{
+    margin:auto;
+}
+
+.Desmatinsdorés{
+
 }
