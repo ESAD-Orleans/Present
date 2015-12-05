@@ -1,6 +1,11 @@
 html, body {
     width:100vw;
 } 
+
+a{
+text-decoration: none;
+}
+
 .page_wrapper{
     float:left;
     width:100%;
@@ -39,16 +44,18 @@ html, body {
 }
 
 
+
+
 /*******Page d'accueil*******/
 #texte1{
-	font-size: 13pt;
-	padding: 95% 0% 0% 45%; /* top right bottom left*/
+	font-size: 16pt;
+	padding: 100% 0% 0% 45%; /* top right bottom left*/
 	font-family: 'GLight';
 }
 
 #texte2{
-	font-size: 11pt;
-	padding-top: 8%;
+	font-size: 14pt;
+	padding-top: 22%;
 	padding-left: 25%;
 	font-family: 'GLight';
 }
@@ -85,43 +92,78 @@ html, body {
     line-height: 68pt;
     letter-spacing: 0.01em;
     margin:0% 10% 10% 15%;
+    position:absolute;
+   
 }
 
 .coquelicot1{
-    margin-top: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 15%;
 }
 
 .coquelicot2{
-    margin-top: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 15%;
 }
 
 .coquelicot3{
-    margin-top: 20%;    
+    margin-top: 15%;    
+}
+
+
+/*******MENU*******/
+#alireaujourdhui{
+font-family: 'Gextraitalic';
+font-size: 13pt;  
+margin-top:70%;
+text-align: left;    
+color:#999999 ;
+display: inline-block;
+    float: left;
+}
+#bibliotheque{
+font-family: 'Gextraitalic';
+font-size: 13pt;  
+margin-top:70%;   
+text-align: right;    
+color:#999999 ;
+display: inline-block;
+   
+}
+.menuaujd{
+    margin-top:70%;
+    padding-top:5%;
+    float:left;
+    display:inline-block;
+}
+.menubibli{
+    margin-top:70%;
+    padding-top:5%;
+    float: right;
+    display:inline-block;
 }
 
 
 /******Edito******/
 #titre{
 font-family: 'Gextraitalic';
-font-size: 10pt;
-margin:auto;    
+font-size: 13pt;
+line-height: 19pt;    
+margin-top:8%;   
+color:#999999 ;
 }
 
 #date{
 font-family: 'Gbold';
-font-size: 13pt;    
-letter-spacing: 0.05em;
+font-size: 17pt;    
+letter-spacing: 0.1em;
     
 }
 
 .Seullevent{
     margin:auto;
+    padding-top: 10%;
 }
 
-.Desmatinsdorés{
+.Desmatinsdores{
+    padding-top: 3%;
 
 }
