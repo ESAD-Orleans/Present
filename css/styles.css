@@ -59,6 +59,7 @@ html, body {
 }
 
 /******Texte Averse******/
+
 #texteaverse{
 	font-size: 13pt;
     line-height: 18pt;
@@ -68,12 +69,12 @@ html, body {
 }
 
 .averse1{
-	margin: 40% 90s% 40% 0%;
+	margin: 40% 90% 40% 0%;
     padding-top: 25%;
 }
 
 .averse2{
-    margin: 0% 90s% 0% 0%;
+    float:left;
  
 }
 
