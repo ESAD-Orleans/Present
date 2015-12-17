@@ -103,7 +103,10 @@ text-decoration: none;
     font-family:'Bregular';
     src: url("BreeRegular.otf");
 }
-
+@font-face {    
+    font-family:'Graublaulight';
+    src: url("Graublau_light.otf");
+}
 
 
 /*******Page d'accueil*******/
@@ -306,6 +309,21 @@ letter-spacing: 0.1em;
     margin-top: 15%;    
 }
 
+
+
+/******Texte Insouciance ******/
+#texteinsouciance{
+font-family: 'Graublaulight';
+font-size: 17pt;
+line-height: 20pt;
+margin-top: 90%;
+margin-left: 8%;    
+}
+
+.p1{
+padding-top: 10%;
+margin-left: 17%;     
+}
 
 
 /****** Boutons fin textes*******/
