@@ -2,6 +2,59 @@ html, body {
     width:100vw;
 } 
 
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.home-loader{
+    width:100px;
+    height:100px;
+    position:relative;
+}
+.home-loader img{
+    top:0;
+    display: block;
+    position:absolute;
+    animation:blink normal 2s infinite ease-in-out; /* Opera */
+    -webkit-animation:blink normal 2s infinite ease-in-out; /* Opera */
+}
+.home-loader .img-2{
+    -webkit-animation-delay:.5s;
+}
+.home-loader .img-3{
+    -webkit-animation-delay:1s;
+}
+
 a{
 text-decoration: none;
 }
@@ -73,6 +126,11 @@ text-decoration: none;
 }
 
 /******INTRO******/
+#intro .page_wrapper{
+    position:relative;
+    margin-top: 100vh;
+    transition: margin-top 10s ease-out;
+}
 #tx1{
 font-family:'Bregular';   
 font-size: 17pt;
@@ -262,14 +320,13 @@ padding-top:9%;
 }
 
 .aujd{
-    padding-top:150%;
-    margin-bottom:5%;
-    float:left;
+    bottom: 0;
+    position: absolute;
 }
 .bibli{
-    margin-bottom:5%;
-    padding-top:43%;
-    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
 }
 
 
