@@ -1,0 +1,395 @@
+html, body {
+    width:100vw;
+} 
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.home-loader{
+    width:100px;
+    height:100px;
+    position:relative;
+}
+.home-loader img{
+    top:0;
+    display: block;
+    position:absolute;
+    animation:blink normal 2s infinite ease-in-out; /* Opera */
+    -webkit-animation:blink normal 2s infinite ease-in-out; /* Opera */
+}
+.home-loader .img-2{
+    -webkit-animation-delay:.5s;
+}
+.home-loader .img-3{
+    -webkit-animation-delay:1s;
+}
+
+a{
+text-decoration: none;
+}
+
+.page_wrapper{
+    float:left;
+    width:100%;
+}
+.p5 canvas{
+    position:fixed;
+    top:0;
+    width:100vw; /* viewport width */
+    height:100vh; /* viewport height */
+}
+
+#home .page_wrapper{
+	background: url("../images/Pagedaccueil/accueiltitre.png") no-repeat; 
+  	background-size: cover; /* version standardisée */
+}
+
+@font-face { /* déclare nouv police sous le nom de Blight*/
+	font-family:'GLight'; /* donne un nom */
+    src: url("Graublau_light_italic.otf"); 
+}    
+@font-face {
+    font-family: 'Bthin';
+    src: url("BreeThin.otf");
+}    
+@font-face {    
+    font-family:'AleoBold';
+    src: url("AleoBold.otf");
+}
+@font-face {    
+    font-family:'Gextraitalic';
+    src: url("Graublau_extralight_italic.otf");
+}
+@font-face {    
+    font-family:'Gbold';
+    src: url("Graublau_bold.otf");
+}
+@font-face {    
+    font-family:'Gextralight';
+    src: url("Graublau_extralight.otf");
+}
+@font-face {    
+    font-family:'Bregular';
+    src: url("BreeRegular.otf");
+}
+@font-face {    
+    font-family:'Graublaulight';
+    src: url("Graublau_light.otf");
+}
+
+
+/*******Page d'accueil*******/
+#texte1{
+	font-size: 16pt;
+	padding: 100% 0% 0% 45%; /* top right bottom left*/
+	font-family: 'GLight';
+}
+
+#texte2{
+	font-size: 14pt;
+	padding-top: 22%;
+	padding-left: 25%;
+	font-family: 'GLight';
+}
+
+.chargement{
+	padding-top: 10%;
+	padding-left: 25%;
+}
+
+/******INTRO******/
+
+
+/* intro */
+
+body#intro{
+    overflow: hidden;
+    width:100vw;
+    height:100vh;
+}
+
+#intro .page_wrapper{
+    position:relative;
+    transform: translate(0,100vh);
+    transition: transform 10s ease-out;
+}
+#tx1{
+font-family:'Bregular';   
+font-size: 17pt;
+margin: 20% 0% 0% 25%;    
+}
+#tx2{
+font-family: 'GLight';
+font-size: 17pt;    
+margin: 24% 0% 0% 25%;    
+}
+#toucher{
+font-family: 'Gextralight';
+font-size: 14p;
+margin: 20% 0% 0% 35%;
+color:#999999;    
+}
+#maintenir{
+font-family: 'Gextralight';
+font-size: 14p;
+margin: 3% 0% 0% 42%;
+color:#999999;        
+}
+#faireglisser{
+font-family: 'Gextralight';
+font-size: 14p;
+margin: 5% 0% 0% 25%;
+color:#999999;        
+}
+
+#tx3{
+font-size: 5pt;
+}
+
+
+
+/*******MENU*******/
+#alireaujourdhui{
+font-family: 'Gextraitalic';
+font-size: 13pt;  
+margin-top:70%;
+text-align: left;    
+color:#999999 ;
+display: inline-block;
+    float: left;
+    padding-left: 3%;
+}
+#bibliotheque{
+font-family: 'Gextraitalic';
+font-size: 13pt;  
+margin-top:70%;   
+float:right;    
+color:#999999 ;
+display: inline-block;
+padding-right: 4%;
+   
+}
+.menuaujd{
+    margin-top:70%;
+    padding-top:5%;
+    float:left;
+    display:inline-block;
+}
+.menubibli{
+    margin-top:70%;
+    padding-top:5%;
+    float: right;
+    display:inline-block;
+}
+
+
+/******Edito et bibliotheque******/
+#titre{
+font-family: 'Gextraitalic';
+font-size: 13pt;
+line-height: 19pt;    
+margin-top:10%;   
+margin-left:35%;
+color:#999999;
+}
+
+#date{
+font-family: 'Gbold';
+margin-left:35%;
+font-size: 17pt;    
+letter-spacing: 0.1em;
+    
+}
+
+.Seullevent{
+    margin:auto;
+    padding-top: 3%%;
+}
+
+.Desmatinsdores{
+    padding-top: 3%;
+
+}
+
+.Unsourireestvenu{
+    padding-top: 10%;
+
+}
+
+.boutonbibli{
+    margin-bottom:5%;
+    padding-top:25%;
+    float: right;
+}
+
+
+/******Texte Averse******/
+
+#texteaverse{
+	font-size: 13pt;
+    line-height: 18pt;
+	margin-top: 20%;
+    padding-left:5%;
+	font-family:'Bthin';
+    float:left;
+}
+
+.averse1{
+    float:left;
+    margin-top:50%;
+}
+
+.averse2{
+    float:left;
+    margin-top:42%;
+    
+ }
+
+.averse3{
+    float:left;
+    margin-top:37%;
+ }
+
+.averse4{
+    float:left;
+    margin-top:57%;
+ }
+
+.averse5{
+    float:left;
+    margin-top:87%;
+ }
+
+.averse6{
+    float:left;
+    margin-top:130%;
+ }
+
+/******Texte Coquelicot******/
+#textecoquelicot{
+    font-family: 'AleoBold';
+    font-size: 57pt;
+    line-height: 66pt;
+    letter-spacing: 0.01em;
+    top:30%;
+    left:13%;
+    position:absolute;
+   
+}
+
+.coquelicot1{
+    margin-top: 15%;
+}
+
+.coquelicot2{
+    margin-top: 15%;
+}
+
+.coquelicot3{
+    margin-top: 15%;    
+}
+
+
+
+/******Texte Insouciance ******/
+#texteinsouciance{
+font-family: 'Graublaulight';
+font-size: 14pt;
+line-height: 19pt;
+    position:absolute;
+bottom:35%;
+margin-left: 8%;    
+}
+
+.p1{
+position:absolute;    
+bottom: -4%;
+margin-left: 17%;     
+}
+
+.p2{
+position:absolute;
+bottom:6%;    
+margin-left: 57%;     
+}
+
+.p3{
+position:absolute;
+top:37%;    
+margin-left: 0%;     
+}
+
+.p4{
+position:absolute;
+top:22%;    
+margin-left: 40%;     
+}
+
+.p5{
+position:absolute;
+top:15%;    
+margin-left: -3%;     
+}
+
+.p6{
+position:absolute;
+top:-2%;    
+margin-left: 55%;     
+}
+
+/****** Boutons fin textes*******/
+.titreauteur{
+    margin-top:57%;
+    margin-left:10%;   
+}
+
+.retour{
+position:absolute;
+left:26%;
+bottom:15%;
+}
+
+
+
+
+
+/**** Bibliotheque ****/
+.auteurdelerm{
+margin:8% 0% 0% 5%;
+}
+.boutonaujd{
+    padding-top:133%;
+    margin-bottom:5%;
+    float:left;
+}

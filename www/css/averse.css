@@ -1,0 +1,38 @@
+/* averse */
+
+
+.page{
+    position:fixed;
+    top:0;
+    width:100vw; /* viewport width */
+    height:100vh; /* viewport height */
+    visibility: hidden;
+    opacity: 0;
+}
+.page.visible,.page.hidden{
+        transition:opacity 1s, visibility 1s;
+    -webkit-transition:opacity 1s, visibility 1s;
+}
+.page.visible{
+    visibility: visible;
+    opacity: 1;
+}
+.page.hidden{
+}
+
+/* coquelicot */
+
+#coquelicot .page.hidden{
+    transition-duration: .8s;
+    -webkit-transition-duration: .8s;
+}
+#coquelicot .page.visible{
+    transition-delay:.6s;
+    -webkit-transition-delay:.6s;
+}
+
+/* intro */
+
+body#intro{
+    overflow: hidden;
+}
