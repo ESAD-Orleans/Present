@@ -31,7 +31,9 @@ function draw() {
     if(touchDown){
         if(now()-touchStartTime > 1000){
             touchDown = false;
-            NextPage();
+            if(index<pages.length-1){
+                NextPage();
+            }
         }
     }
 }
@@ -44,7 +46,6 @@ var DragUI = function(){
             starttime:(new Date()).getTime(),
             initialize:function(){
                 dragUIList.push(this);
-                console.log(args);
             },
             age:function(){
                 return now() - this.starttime;
@@ -93,6 +94,7 @@ function NextPage(){
             pages[i].addClass('visible');
         }
     }
+    //
     if(index==pages.length-1){
         select('.p5').hide();
     }

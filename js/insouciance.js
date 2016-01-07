@@ -75,13 +75,16 @@ function touchMoved() {
     }
 }
 function touchEnded(){
-    if(touchDown && now()-touchStartTime < 200){
+    if(touchDown && now()-touchStartTime < 200 && (index < pages.length-1)){
         NextPage();
+    }else if(index == pages.length-1){
+         jQuery('.p5').fadeOut();
     }
     touchDown = false;
 }
 
 function NextPage(){
+    console.log('NextPage');
     index ++;
     for(var i=0; i<pages.length; i++){
         if(i!=index){
