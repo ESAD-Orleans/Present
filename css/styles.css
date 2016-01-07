@@ -289,10 +289,11 @@ letter-spacing: 0.1em;
 /******Texte Coquelicot******/
 #textecoquelicot{
     font-family: 'AleoBold';
-    font-size: 60pt;
-    line-height: 68pt;
+    font-size: 57pt;
+    line-height: 66pt;
     letter-spacing: 0.01em;
-    margin:0% 10% 10% 15%;
+    top:30%;
+    left:13%;
     position:absolute;
    
 }
@@ -314,22 +315,48 @@ letter-spacing: 0.1em;
 /******Texte Insouciance ******/
 #texteinsouciance{
 font-family: 'Graublaulight';
-font-size: 17pt;
-line-height: 20pt;
-margin-top: 90%;
+font-size: 14pt;
+line-height: 19pt;
+    position:absolute;
+bottom:35%;
 margin-left: 8%;    
 }
 
 .p1{
-padding-top: 10%;
+position:absolute;    
+bottom: -4%;
 margin-left: 17%;     
 }
 
 .p2{
-padding-top: 4%;
-margin-left: 60%;     
+position:absolute;
+bottom:6%;    
+margin-left: 57%;     
 }
 
+.p3{
+position:absolute;
+top:37%;    
+margin-left: 0%;     
+}
+
+.p4{
+position:absolute;
+top:22%;    
+margin-left: 40%;     
+}
+
+.p5{
+position:absolute;
+top:15%;    
+margin-left: -3%;     
+}
+
+.p6{
+position:absolute;
+top:-2%;    
+margin-left: 55%;     
+}
 
 /****** Boutons fin textes*******/
 .titreauteur{
@@ -337,20 +364,13 @@ margin-left: 60%;
     margin-left:10%;   
 }
 
-.sauvegarde{
-margin-left:24%;
-padding-top:9%;
+.retour{
+position:absolute;
+left:26%;
+bottom:15%;
 }
 
-.aujd{
-    bottom: 0;
-    position: absolute;
-}
-.bibli{
-    position: absolute;
-    right: 0;
-    bottom: 20px;
-}
+
 
 
 
