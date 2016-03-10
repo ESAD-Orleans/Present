@@ -66,7 +66,7 @@ function touchStarted() {
         touchStartTime = now();
         touchDown = true;
     }
-    console.log(touchDown,touches.length);
+    console.log('touchStarted',touchDown,touches.length);
 }
 function touchMoved() {
     var lastDragUI = dragUIList[dragUIList.length-1];
@@ -76,6 +76,7 @@ function touchMoved() {
     }
 }
 function touchEnded(){
+    console.log(touchDown,now()-touchStartTime);
      if(touchDown && now()-touchStartTime < 200 && index < pages.length-1){
         NextPage();
     }else if(index == pages.length-1){
